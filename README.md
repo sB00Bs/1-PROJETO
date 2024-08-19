@@ -1,2 +1,4 @@
-# 1 PROJETO
- 1 Projeto inicial no ramo da programação
+# PROJETOS
+ Projetos iniciais no ramo da programação
+
+Repositorio criado pros futuros projetos em minha carreira na área da programação
