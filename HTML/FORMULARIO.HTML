@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2° MOD INFO VESP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário pra adquirição das Blusas</h1>
+
+        <form action="https://formspree.io/f/meojnpbw"method="post">
+            <h2>Preencha seus dados: </h2>
+    
+            <label for="nome">Nome: </label><br>
+            <input type="text" name="nome" id="nome"required><br><br>
+    
+            <label for="tamanho">Tamanho da Blusa: </label><br>
+            <select name="tamanho" id="tamanho"required>
+                <option value="P">P</option>
+                <option value="M">M</option>
+                <option value="G">G</option>
+                <option value="GG">GG</option>
+            </select><br><br>
+    
+            <label for="telefone">Numero de Telefone: </label><br>
+            <input type="tel" name="telefone" id="telefone" pattern="[0-9]{2}[0-9]{5}-[0-9]{4}"placeholder="(XX)XXXXX-XXXX"required><br><br>
+    
+            <label for="sugestoes">Sugestões sobre a sua blusa: </label><br>
+            <textarea name="sugestoes" id="sugestoes" rows="4" cols="50"placeholder="Deixe sua sugestão aqui... "></textarea><br><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    
+</body>
+</html>
